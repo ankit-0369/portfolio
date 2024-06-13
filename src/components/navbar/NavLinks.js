@@ -10,9 +10,12 @@ const NavLinks = ({handleNav}) => {
         <li onClick={handleNav} ><Link  to="//twitter.com/k_ankit1001" target='_blank' className='nav-link'><FaTwitter /></Link></li>
         <li onClick={handleNav} ><Link  to="//www.linkedin.com/in/ankit0369" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
         <li onClick={handleNav} ><Link  to="//github.com/ankit-0369" target='_blank' className='nav-link'><BsGithub /></Link></li>
-        <li onClick={handleNav} ><Link  to="//mailto:nvsankit2020@gmail.com" target='_blank' className='nav-link'><BiEnvelope /></Link></li>
+        <li onClick={handleNav} > <a className='nav-link' href="mailto:nvsankit2020@gmail.com" target='_blank'><BiEnvelope /></a></li>
   </ul>
   )
 };
 
 export default NavLinks;
+
+
+<Link  to="//mailto:nvsankit2020@gmail.com" target='_blank' className='nav-link'></Link>

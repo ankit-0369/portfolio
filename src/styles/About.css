@@ -66,7 +66,28 @@
     }
 }
 
+.badge{
+
+    display: flex;
+    gap: 0.2rem;
+  flex-wrap: wrap;
+    border-width: 2px;
+    
+}
+
+.badge a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+   
+}
 @media screen and (max-width: 500px) {
+
+    .badge{
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
     .about-img img {
         width: auto;
         height: 200px;
@@ -84,3 +105,4 @@
         font-size: .8rem;
     }
 }
+

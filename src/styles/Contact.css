@@ -106,3 +106,20 @@ input, textarea {
         font-size: 70%;
     }
 }
+
+.badge{
+
+    display: flex;
+    gap: 0.2rem;
+  flex-wrap: wrap;
+    border-width: 2px;
+    
+}
+
+.badge a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+   
+}

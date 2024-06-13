@@ -18,6 +18,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: all 0.4s ease;
+}
+
+.skill-card:hover{
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
 }
 
 .skill-icon {

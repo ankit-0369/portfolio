@@ -16,7 +16,7 @@ const Main = ({nav, handleNav, closeNav}) => {
         <Services />
         <Works />
         <Contact />
-        {/* <ParticleBg /> */}
+        
     </div>
   )
 };
