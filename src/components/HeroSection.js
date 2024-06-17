@@ -5,6 +5,7 @@ import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
+import TypeEffect from "./TypeEffect";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -104,18 +105,19 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Ankit Kumar.</span>
+					<span>Ankit Kumar</span>
 				</p>
-				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Web Developer.</span>
-				</p>
+				<div className='hero-desc'>
+					<span>I'm a</span> <span className='hero-desc-sub'><TypeEffect /></span>
+					
+				</div>
 			</motion.div>
 			<motion.span
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
 				<a
-					href='https://drive.google.com/file/d/19i7klz8cxsySsS_oPCQJwVglWjVfV7m4/view?usp=sharing'
+					href='https://drive.google.com/file/d/1Yn_SE2E45_d2oagABlgv_LMnA35bZusw/view?usp=sharing'
 					className='hero-contact'
 					target="_BLANK"
 					>

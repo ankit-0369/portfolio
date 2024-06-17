@@ -23,7 +23,7 @@ const Works = () => {
 						whileInView={fade}
 						viewport={{ once: true }}
 						className='heading'>
-						<p className='heading-sub-text'>I build real value</p>
+						<p className='heading-sub-text'>मूल्यं निर्मायते !</p>
 						<p className='heading-text'>Works</p>
 					</motion.div>
 

@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="contact" id='contact'>
                 <div className="container">
                     <motion.div className="heading" initial={{ opacity: 0 }} whileInView={fade} viewport={{ once: true }}>
-                        <p className="heading-sub-text">Hire Me</p>
+                        <p className="heading-sub-text">अंतः अस्ति प्रारंभः! </p>
                         <p className='heading-text'>Get in Touch</p>
                     </motion.div>
                     <div className="contact-box">

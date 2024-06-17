@@ -18,8 +18,8 @@ const Services = () => {
           <div className="services" id='services'>
               <div className="container">
                 <motion.div whileInView={fade} viewport={{ once: true }} initial={{opacity: 0}} className="heading">
-                    <p className="heading-sub-text">What I can do</p>
-                    <p className='heading-text'>Services</p>
+                    <p className="heading-sub-text"> कर्मसु कौशलम्</p>
+                    <p className='heading-text'>What I can do</p>
                 </motion.div>
                 <motion.div className="services-box" whileInView={fade} initial={{opacity: 0}}>
                     <div className="services-card">

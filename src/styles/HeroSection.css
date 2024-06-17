@@ -29,6 +29,10 @@
 	font-family: "Lato", sans-serif;
 	margin-bottom: 2rem;
 	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .hero-intro {
@@ -37,6 +41,11 @@
 	color: var(--nav-blue);
 	display: flex;
 	flex-direction: column;
+}
+.hero-desc{
+	display: flex;
+	flex-direction: row;
+	gap:1rem;
 }
 
 .hero-desc,
